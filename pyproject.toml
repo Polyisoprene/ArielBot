@@ -7,8 +7,21 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+nonebot2 = {extras = ["fastapi"], version = "^2.1.1"}
+nonebot-adapter-onebot = "^2.3.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+ariel = "arielbot.__init__:main"
+
+
+[[tool.poetry.source]]
+name = "ts"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+default = true
+secondary = false
