@@ -714,23 +714,19 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 reference = "ts"
 
 [[package]]
-name = "nonebot-adapter-red"
-version = "0.5.2"
-description = "Red Protocol Adapter for Nonebot2"
+name = "nonebot-adapter-satori"
+version = "0.2.0"
+description = "Satori Protocol Adapter for Nonebot2"
 category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "nonebot_adapter_red-0.5.2-py3-none-any.whl", hash = "sha256:fb0743411836f2d3351575e3f75f78c80fb6c8c0fe1b71256369cc737fe595ad"},
-    {file = "nonebot_adapter_red-0.5.2.tar.gz", hash = "sha256:11467b509ef75f7d920a0fe870287a9fea6fbe3a7ce6903eee287f63d893019d"},
+    {file = "nonebot_adapter_satori-0.2.0-py3-none-any.whl", hash = "sha256:1a0b8018844f964004911e5dd2ec1a5a3e9b592bc6d8998e8676997ee02efb1a"},
+    {file = "nonebot_adapter_satori-0.2.0.tar.gz", hash = "sha256:1693d13465dae8c2a2876304b0e219187d690ea827288d2ab84de6a9e97872ad"},
 ]
 
 [package.dependencies]
-nonebot2 = ">=2.0.1"
-packaging = ">=23.1"
-
-[package.extras]
-auto-detect = ["PyYAML"]
+nonebot2 = ">=2.1.0"
 
 [package.source]
 type = "legacy"
@@ -765,23 +761,6 @@ fastapi = ["fastapi (>=0.93.0,<1.0.0)", "uvicorn[standard] (>=0.20.0,<1.0.0)"]
 httpx = ["httpx[http2] (>=0.20.0,<1.0.0)"]
 quart = ["Quart (>=0.18.0,<1.0.0)", "uvicorn[standard] (>=0.20.0,<1.0.0)"]
 websockets = ["websockets (>=10.0)"]
-
-[package.source]
-type = "legacy"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "ts"
-
-[[package]]
-name = "packaging"
-version = "23.2"
-description = "Core utilities for Python packages"
-category = "main"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "packaging-23.2-py3-none-any.whl", hash = "sha256:8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7"},
-    {file = "packaging-23.2.tar.gz", hash = "sha256:048fb0e9405036518eaaf48a55953c750c11e1a1b68e0dd1a9d62ed0c092cfc5"},
-]
 
 [package.source]
 type = "legacy"
@@ -1123,4 +1102,4 @@ reference = "ts"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f0541c940ee12966c0111f18798edcd45d1ce491eef0b1537785ce28d17fee2c"
+content-hash = "8bd0ec1fa08efb6328144a3772e955a11a529d78eccadf4f1a555ec1c36f91fa"
