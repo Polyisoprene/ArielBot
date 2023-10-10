@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "arielbot"
-version = "0.1.0"
+version = "0.1.2"
 description = ""
 authors = ["DMC <lzxder@outlook.com>"]
 readme = "README.md"
