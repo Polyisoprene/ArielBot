@@ -1,0 +1,1 @@
+docker run -it --name chronocat  -p 16530:16530  -p 5500:5500  -p 16340:16340   -v ./config:/chrono/.chronocat/config   -v ./qq:/chrono/.config/QQ   chronoc/at

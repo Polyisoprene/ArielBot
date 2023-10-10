@@ -1,5 +1,5 @@
 import nonebot
-from nonebot.adapters.onebot.v11 import Adapter
+from nonebot.adapters.red import Adapter
 from os import path, getcwd, listdir
 import sys
 
